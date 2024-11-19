@@ -1,7 +1,7 @@
 # VERSION 0.1
 # AUTHOR:         DSSTNE Docker <dsstne-docker@amazon.com>
 # DESCRIPTION:    Docker image for Amazon DSSTNE
-FROM ubuntu:14.04
+FROM ubuntu:trusty-20190425
 RUN apt-get update && apt-get install -y make \
    build-essential \
    cmake \
